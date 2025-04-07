@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "82s-tf-remote-state-eks"
+    bucket = "daws-82ss-cicd"
     key    = "expense-tools"
     region = "us-east-1"
-    dynamodb_table = "82s-tf-remote-state-dev"
+    dynamodb_table = "82s-locking"
   }
 }
 
