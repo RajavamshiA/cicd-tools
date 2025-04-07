@@ -28,7 +28,7 @@ module "jenkins_agent" {
   name = "jenkins-agent"
 
   instance_type          = "t3.small"
-  vpc_security_group_ids = ["sg-0fea5e49e962e81c9"]
+  vpc_security_group_ids = ["sg-090191332551d3d9b"]
   subnet_id = "subnet-0c9ef872d9e949944"
   ami = data.aws_ami.ami_info.id
   user_data = file("jenkins-agent.sh")
