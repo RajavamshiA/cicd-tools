@@ -10,7 +10,7 @@ terraform {
     bucket = "daws-82ss-cicd"
     key    = "expense-tools"
     region = "us-east-1"
-    dynamodb_table = "82s-locking"
+    dynamodb_table = "82ss-locking"
   }
 }
 
