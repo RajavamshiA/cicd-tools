@@ -38,3 +38,6 @@ dnf install maven -y
 
 # Python for python projects
 dnf install python3.11 gcc python3-devel -y
+
+
+#Installing all the required softwares need for the project
