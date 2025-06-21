@@ -17,3 +17,5 @@ xfs_growfs /var
 systemctl daemon-reload
 systemctl enable jenkins
 systemctl start jenkins
+
+#Once login into the jenkins in web, we install plugins essentials for the project.
