@@ -41,3 +41,4 @@ dnf install python3.11 gcc python3-devel -y
 
 
 #Installing all the required softwares needed for the project.
+#Private IP for jenkins agent.
